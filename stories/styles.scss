@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+
+button {
+	color: #fff;
+	padding: 10px 14px;
+	margin: 10px;
+	background: #41b0c3;
+	border: 0;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	&:hover {
+		background: #2ed7d8;
+	}
+}
+
+.task-info {
+	margin: 15px;
+}
